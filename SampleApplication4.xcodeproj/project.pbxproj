@@ -6,8 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3B8DEE182DEEED71005C5E98 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DEE172DEEED71005C5E98 /* Podfile */; };
+		3B8DEE452DEEEE20005C5E98 /* SampleLibrary2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8DEE422DEEEE1A005C5E98 /* SampleLibrary2.framework */; };
+		3B8DEE462DEEEE20005C5E98 /* SampleLibrary2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B8DEE422DEEEE1A005C5E98 /* SampleLibrary2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AEA94C2106531E9D3D117D5B /* Pods_SampleApplication4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E163C273535026A1734F41 /* Pods_SampleApplication4.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8DEE412DEEEE1A005C5E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B8DEE3C2DEEEE1A005C5E98 /* SampleLibrary2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3BFB01752DED28F3008B9FCB;
+			remoteInfo = SampleLibrary2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B8DEE472DEEEE20005C5E98 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3B8DEE462DEEEE20005C5E98 /* SampleLibrary2.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		30E163C273535026A1734F41 /* Pods_SampleApplication4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApplication4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A8BAE8804BC228D09BEFD6C /* Pods-SampleApplication4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.debug.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.debug.xcconfig"; sourceTree = "<group>"; };
 		3B8DEE092DEEED12005C5E98 /* SampleApplication4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApplication4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8DEE172DEEED71005C5E98 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3B8DEE3C2DEEEE1A005C5E98 /* SampleLibrary2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleLibrary2.xcodeproj; path = ../SampleLibrary2/SampleLibrary2.xcodeproj; sourceTree = "<group>"; };
+		750DFE0DF366F5A306A9E389 /* Pods-SampleApplication4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.release.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,17 +59,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA94C2106531E9D3D117D5B /* Pods_SampleApplication4.framework in Frameworks */,
+				3B8DEE452DEEEE20005C5E98 /* SampleLibrary2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		038BBC9857B4DA13848B1820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B8DEE3C2DEEEE1A005C5E98 /* SampleLibrary2.xcodeproj */,
+				30E163C273535026A1734F41 /* Pods_SampleApplication4.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3B8DEE002DEEED12005C5E98 = {
 			isa = PBXGroup;
 			children = (
+				3B8DEE172DEEED71005C5E98 /* Podfile */,
 				3B8DEE0B2DEEED12005C5E98 /* SampleApplication4 */,
 				3B8DEE0A2DEEED12005C5E98 /* Products */,
+				D31D75D84A799AC140CAFC04 /* Pods */,
+				038BBC9857B4DA13848B1820 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +95,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		3B8DEE3D2DEEEE1A005C5E98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B8DEE422DEEEE1A005C5E98 /* SampleLibrary2.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D31D75D84A799AC140CAFC04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A8BAE8804BC228D09BEFD6C /* Pods-SampleApplication4.debug.xcconfig */,
+				750DFE0DF366F5A306A9E389 /* Pods-SampleApplication4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -52,9 +119,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8DEE142DEEED15005C5E98 /* Build configuration list for PBXNativeTarget "SampleApplication4" */;
 			buildPhases = (
+				2D8BA39BD3E8F1FA3AA19671 /* [CP] Check Pods Manifest.lock */,
+				C6470AFFA653E9369F184D44 /* [CP-User] Run Flutter Build konnek_native_core Script */,
 				3B8DEE052DEEED12005C5E98 /* Sources */,
 				3B8DEE062DEEED12005C5E98 /* Frameworks */,
 				3B8DEE072DEEED12005C5E98 /* Resources */,
+				A564A1A7766AD8B51B97B602 /* [CP] Embed Pods Frameworks */,
+				94A360D562381071D6761224 /* [CP-User] Embed Flutter Build konnek_native_core Script */,
+				3B8DEE472DEEEE20005C5E98 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -64,8 +136,6 @@
 				3B8DEE0B2DEEED12005C5E98 /* SampleApplication4 */,
 			);
 			name = SampleApplication4;
-			packageProductDependencies = (
-			);
 			productName = SampleApplication4;
 			productReference = 3B8DEE092DEEED12005C5E98 /* SampleApplication4.app */;
 			productType = "com.apple.product-type.application";
@@ -97,6 +167,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3B8DEE0A2DEEED12005C5E98 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3B8DEE3D2DEEEE1A005C5E98 /* Products */;
+					ProjectRef = 3B8DEE3C2DEEEE1A005C5E98 /* SampleLibrary2.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				3B8DEE082DEEED12005C5E98 /* SampleApplication4 */,
@@ -104,15 +180,100 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		3B8DEE422DEEEE1A005C5E98 /* SampleLibrary2.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SampleLibrary2.framework;
+			remoteRef = 3B8DEE412DEEEE1A005C5E98 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		3B8DEE072DEEED12005C5E98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B8DEE182DEEED71005C5E98 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D8BA39BD3E8F1FA3AA19671 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleApplication4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94A360D562381071D6761224 /* [CP-User] Embed Flutter Build konnek_native_core Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] Embed Flutter Build konnek_native_core Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter Project/flutter_module1/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+		A564A1A7766AD8B51B97B602 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6470AFFA653E9369F184D44 /* [CP-User] Run Flutter Build konnek_native_core Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] Run Flutter Build konnek_native_core Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter Project/flutter_module1/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B8DEE052DEEED12005C5E98 /* Sources */ = {
@@ -163,7 +324,7 @@
 				DEVELOPMENT_TEAM = 5NC6DKLPHK;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -227,7 +388,7 @@
 				DEVELOPMENT_TEAM = 5NC6DKLPHK;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -248,6 +409,7 @@
 		};
 		3B8DEE152DEEED15005C5E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A8BAE8804BC228D09BEFD6C /* Pods-SampleApplication4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -276,6 +438,7 @@
 		};
 		3B8DEE162DEEED15005C5E98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750DFE0DF366F5A306A9E389 /* Pods-SampleApplication4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

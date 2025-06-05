@@ -27,17 +27,12 @@
   },
   "dependencies": {
     "Flutter": [],
-    "app_settings": [],
     "connectivity_plus": [],
     "device_info_plus": [],
     "file_picker": [],
-    "flutter_image_compress_common": [],
-    "flutter_inappwebview_ios": [],
-    "geolocator_apple": [],
     "image_picker_ios": [],
     "package_info_plus": [],
     "path_provider_foundation": [],
-    "safe_device": [],
     "url_launcher_ios": []
   }
 }

@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-import SampleLibrary2
+import SampleLibrary3
 
 @main
 struct SampleApplication4App: App {

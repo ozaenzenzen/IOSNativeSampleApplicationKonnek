@@ -64,15 +64,15 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - connectivity_plus (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/connectivity_plus/ios`)
-  - device_info_plus (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/device_info_plus/ios`)
-  - file_picker (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/file_picker/ios`)
-  - Flutter (from `../../Flutter Project/flutter_module1/.ios/Flutter`)
-  - FlutterPluginRegistrant (from `../../Flutter Project/flutter_module1/.ios/Flutter/FlutterPluginRegistrant`)
-  - image_picker_ios (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/image_picker_ios/ios`)
-  - package_info_plus (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/package_info_plus/ios`)
-  - path_provider_foundation (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/path_provider_foundation/darwin`)
-  - url_launcher_ios (from `../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/url_launcher_ios/ios`)
+  - connectivity_plus (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/connectivity_plus/ios`)
+  - device_info_plus (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/device_info_plus/ios`)
+  - file_picker (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/file_picker/ios`)
+  - Flutter (from `../../Flutter Project/konnek_native_core/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../../Flutter Project/konnek_native_core/.ios/Flutter/FlutterPluginRegistrant`)
+  - image_picker_ios (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/image_picker_ios/ios`)
+  - package_info_plus (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/package_info_plus/ios`)
+  - path_provider_foundation (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/path_provider_foundation/darwin`)
+  - url_launcher_ios (from `../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/url_launcher_ios/ios`)
 
 SPEC REPOS:
   trunk:
@@ -84,23 +84,23 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   connectivity_plus:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/connectivity_plus/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/connectivity_plus/ios"
   device_info_plus:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/device_info_plus/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/device_info_plus/ios"
   file_picker:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/file_picker/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/file_picker/ios"
   Flutter:
-    :path: "../../Flutter Project/flutter_module1/.ios/Flutter"
+    :path: "../../Flutter Project/konnek_native_core/.ios/Flutter"
   FlutterPluginRegistrant:
-    :path: "../../Flutter Project/flutter_module1/.ios/Flutter/FlutterPluginRegistrant"
+    :path: "../../Flutter Project/konnek_native_core/.ios/Flutter/FlutterPluginRegistrant"
   image_picker_ios:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/image_picker_ios/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/image_picker_ios/ios"
   package_info_plus:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/package_info_plus/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/package_info_plus/ios"
   path_provider_foundation:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/path_provider_foundation/darwin"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/path_provider_foundation/darwin"
   url_launcher_ios:
-    :path: "../../Flutter Project/flutter_module1/.ios/.symlinks/plugins/url_launcher_ios/ios"
+    :path: "../../Flutter Project/konnek_native_core/.ios/.symlinks/plugins/url_launcher_ios/ios"
 
 SPEC CHECKSUMS:
   connectivity_plus: 481668c94744c30c53b8895afb39159d1e619bdf
@@ -118,6 +118,6 @@ SPEC CHECKSUMS:
   SwiftyGif: 706c60cf65fa2bc5ee0313beece843c8eb8194d4
   url_launcher_ios: 694010445543906933d732453a59da0a173ae33d
 
-PODFILE CHECKSUM: 677219bf562f17d7c6a7d91cc58ac651ded71f33
+PODFILE CHECKSUM: 6fa2d73d62faa93b7e3338116bd52656c38de4ef
 
 COCOAPODS: 1.16.2

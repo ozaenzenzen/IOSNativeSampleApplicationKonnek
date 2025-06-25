@@ -6,11 +6,11 @@
 //
 
 import SwiftUI
-import SampleLibrary3
+import KonnekNativeIos
 
 @main
 struct SampleApplication4App: App {
-    public static let shared = BridgeUIManager()
+    public static let shared = KonnekNative()
     
     var body: some Scene {
         WindowGroup {

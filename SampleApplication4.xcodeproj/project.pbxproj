@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B07D9F22E0406780000AA75 /* KonnekNativeIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B07D9F12E0406740000AA75 /* KonnekNativeIos.framework */; };
-		3B07D9F32E0406780000AA75 /* KonnekNativeIos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B07D9F12E0406740000AA75 /* KonnekNativeIos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0207E91B56910CC054E610F8 /* Pods_SampleApplication4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C777670D9673B425D958715 /* Pods_SampleApplication4.framework */; };
 		3B8DEE182DEEED71005C5E98 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3B8DEE172DEEED71005C5E98 /* Podfile */; };
-		7A9E1775C72F3B4D34EC9728 /* Pods_SampleApplication4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F7584C71EB0F14D1F7AE82 /* Pods_SampleApplication4.framework */; };
+		3B9A785A2E8D1387000B5672 /* KonnekNativeIos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9A78592E8D1387000B5672 /* KonnekNativeIos.framework */; };
+		3B9A785B2E8D1387000B5672 /* KonnekNativeIos.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3B9A78592E8D1387000B5672 /* KonnekNativeIos.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3B07D9F02E0406740000AA75 /* PBXContainerItemProxy */ = {
+		3B9A78582E8D1387000B5672 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B07D9E22E0406740000AA75 /* KonnekNativeIos.xcodeproj */;
+			containerPortal = 3B9A78132E8D1246000B5672 /* KonnekNativeIos.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 3B8DF1682DF802BC005C5E98;
 			remoteInfo = KonnekNativeIos;
@@ -30,7 +30,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				3B07D9F32E0406780000AA75 /* KonnekNativeIos.framework in Embed Frameworks */,
+				3B9A785B2E8D1387000B5672 /* KonnekNativeIos.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,18 +38,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B07D9E22E0406740000AA75 /* KonnekNativeIos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KonnekNativeIos.xcodeproj; path = ../KonnekNativeIos/KonnekNativeIos.xcodeproj; sourceTree = "<group>"; };
+		17DDD0D65FE8B6AD545CD6BF /* Pods-SampleApplication4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.release.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.release.xcconfig"; sourceTree = "<group>"; };
 		3B8DEE092DEEED12005C5E98 /* SampleApplication4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleApplication4.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B8DEE172DEEED71005C5E98 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
-		44636E0544576DB4A8156D23 /* Pods-SampleApplication4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.debug.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.debug.xcconfig"; sourceTree = "<group>"; };
-		7A22596B8F25F82D2167277B /* Pods-SampleApplication4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.release.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.release.xcconfig"; sourceTree = "<group>"; };
-		F2F7584C71EB0F14D1F7AE82 /* Pods_SampleApplication4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApplication4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B8DEE172DEEED71005C5E98 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3B9A78132E8D1246000B5672 /* KonnekNativeIos.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KonnekNativeIos.xcodeproj; path = ../KonnekNativeIos/KonnekNativeIos.xcodeproj; sourceTree = "<group>"; };
+		8C777670D9673B425D958715 /* Pods_SampleApplication4.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApplication4.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDBED820AC026B23AC4EBC4D /* Pods-SampleApplication4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleApplication4.debug.xcconfig"; path = "Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3B9A78742E8D28BB000B5672 /* Exceptions for "SampleApplication4" folder in "SampleApplication4" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3B8DEE082DEEED12005C5E98 /* SampleApplication4 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		3B8DEE0B2DEEED12005C5E98 /* SampleApplication4 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3B9A78742E8D28BB000B5672 /* Exceptions for "SampleApplication4" folder in "SampleApplication4" target */,
+			);
 			path = SampleApplication4;
+			sourceTree = "<group>";
+		};
+		3B9A785D2E8D2799000B5672 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -59,25 +77,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B07D9F22E0406780000AA75 /* KonnekNativeIos.framework in Frameworks */,
-				7A9E1775C72F3B4D34EC9728 /* Pods_SampleApplication4.framework in Frameworks */,
+				0207E91B56910CC054E610F8 /* Pods_SampleApplication4.framework in Frameworks */,
+				3B9A785A2E8D1387000B5672 /* KonnekNativeIos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B07D9E32E0406740000AA75 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3B07D9F12E0406740000AA75 /* KonnekNativeIos.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		3B8DEE002DEEED12005C5E98 = {
 			isa = PBXGroup;
 			children = (
+				3B9A785D2E8D2799000B5672 /* Resources */,
 				3B8DEE172DEEED71005C5E98 /* Podfile */,
 				3B8DEE0B2DEEED12005C5E98 /* SampleApplication4 */,
 				3B8DEE0A2DEEED12005C5E98 /* Products */,
@@ -97,17 +108,25 @@
 		3B8DF3182DF81DB6005C5E98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B07D9E22E0406740000AA75 /* KonnekNativeIos.xcodeproj */,
-				F2F7584C71EB0F14D1F7AE82 /* Pods_SampleApplication4.framework */,
+				3B9A78132E8D1246000B5672 /* KonnekNativeIos.xcodeproj */,
+				8C777670D9673B425D958715 /* Pods_SampleApplication4.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B9A78142E8D1246000B5672 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9A78592E8D1387000B5672 /* KonnekNativeIos.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		D31D75D84A799AC140CAFC04 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44636E0544576DB4A8156D23 /* Pods-SampleApplication4.debug.xcconfig */,
-				7A22596B8F25F82D2167277B /* Pods-SampleApplication4.release.xcconfig */,
+				CDBED820AC026B23AC4EBC4D /* Pods-SampleApplication4.debug.xcconfig */,
+				17DDD0D65FE8B6AD545CD6BF /* Pods-SampleApplication4.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -119,14 +138,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B8DEE142DEEED15005C5E98 /* Build configuration list for PBXNativeTarget "SampleApplication4" */;
 			buildPhases = (
-				A39F9C048C8F4743F9854EE8 /* [CP] Check Pods Manifest.lock */,
-				BE7FF22399DEE87BBA57D8B6 /* [CP-User] Run Flutter Build konnek_native_core Script */,
+				40A26CBDE2C9C900660963B6 /* [CP] Check Pods Manifest.lock */,
+				9C8D6193A59680B36BFD1E89 /* [CP-User] Run Flutter Build konnek_native_core Script */,
 				3B8DEE052DEEED12005C5E98 /* Sources */,
 				3B8DEE062DEEED12005C5E98 /* Frameworks */,
 				3B8DEE072DEEED12005C5E98 /* Resources */,
 				3B8DEE472DEEEE20005C5E98 /* Embed Frameworks */,
-				A9E6BB87FD68A013A1EC1CFF /* [CP] Embed Pods Frameworks */,
-				7338198D9DB7306B76B84605 /* [CP-User] Embed Flutter Build konnek_native_core Script */,
+				163F43670F9F517C9D7A2BEC /* [CP] Embed Pods Frameworks */,
+				D48C2E77CF9E67259FBE1730 /* [CP-User] Embed Flutter Build konnek_native_core Script */,
 			);
 			buildRules = (
 			);
@@ -134,6 +153,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				3B8DEE0B2DEEED12005C5E98 /* SampleApplication4 */,
+				3B9A785D2E8D2799000B5672 /* Resources */,
 			);
 			name = SampleApplication4;
 			productName = SampleApplication4;
@@ -169,8 +189,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 3B07D9E32E0406740000AA75 /* Products */;
-					ProjectRef = 3B07D9E22E0406740000AA75 /* KonnekNativeIos.xcodeproj */;
+					ProductGroup = 3B9A78142E8D1246000B5672 /* Products */;
+					ProjectRef = 3B9A78132E8D1246000B5672 /* KonnekNativeIos.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -181,11 +201,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		3B07D9F12E0406740000AA75 /* KonnekNativeIos.framework */ = {
+		3B9A78592E8D1387000B5672 /* KonnekNativeIos.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = KonnekNativeIos.framework;
-			remoteRef = 3B07D9F02E0406740000AA75 /* PBXContainerItemProxy */;
+			remoteRef = 3B9A78582E8D1387000B5672 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -202,21 +222,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7338198D9DB7306B76B84605 /* [CP-User] Embed Flutter Build konnek_native_core Script */ = {
+		163F43670F9F517C9D7A2BEC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
 			inputPaths = (
 			);
-			name = "[CP-User] Embed Flutter Build konnek_native_core Script";
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter Project/konnek_native_core/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-		A39F9C048C8F4743F9854EE8 /* [CP] Check Pods Manifest.lock */ = {
+		40A26CBDE2C9C900660963B6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -238,28 +265,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A9E6BB87FD68A013A1EC1CFF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleApplication4/Pods-SampleApplication4-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BE7FF22399DEE87BBA57D8B6 /* [CP-User] Run Flutter Build konnek_native_core Script */ = {
+		9C8D6193A59680B36BFD1E89 /* [CP-User] Run Flutter Build konnek_native_core Script */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,6 +278,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter Project/konnek_native_core/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		D48C2E77CF9E67259FBE1730 /* [CP-User] Embed Flutter Build konnek_native_core Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP-User] Embed Flutter Build konnek_native_core Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../Flutter Project/konnek_native_core/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -409,7 +429,7 @@
 		};
 		3B8DEE152DEEED15005C5E98 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44636E0544576DB4A8156D23 /* Pods-SampleApplication4.debug.xcconfig */;
+			baseConfigurationReference = CDBED820AC026B23AC4EBC4D /* Pods-SampleApplication4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -418,17 +438,19 @@
 				DEVELOPMENT_TEAM = 5NC6DKLPHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleApplication4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApplication4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApplicationn4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -438,7 +460,7 @@
 		};
 		3B8DEE162DEEED15005C5E98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A22596B8F25F82D2167277B /* Pods-SampleApplication4.release.xcconfig */;
+			baseConfigurationReference = 17DDD0D65FE8B6AD545CD6BF /* Pods-SampleApplication4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,17 +469,19 @@
 				DEVELOPMENT_TEAM = 5NC6DKLPHK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleApplication4/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApplication4;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.SampleApplicationn4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
